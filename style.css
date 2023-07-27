@@ -16,3 +16,7 @@ li {
 .rating_start {
     color: #FBC0A8;
 }
+
+.input {
+    border: none !important;
+}
