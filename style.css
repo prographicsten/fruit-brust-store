@@ -20,3 +20,23 @@ li {
 .input {
     border: none !important;
 }
+
+.popup {
+    background: #fff;
+    border-radius: 8px;
+    position: absolute;
+    top: 0px;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.1);
+    z-index: 100;
+    padding: 50px;
+    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.2);
+    visibility: hidden;
+    transition: transform 0.4s, top 0.4s;
+}
+
+.popup-open {
+    top: 50%;
+    transform: translate(-50%, -50%) scale(1);
+    visibility: visible;
+}
